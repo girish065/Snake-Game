@@ -198,6 +198,7 @@ public class gamecontroller : MonoBehaviour
 			CancelInvoke("TimerInvoke");
 			Exit();
 		}
+		PlayerPrefs.SetInt("Score", Score);
 	}
 	
 	public void Exit()
